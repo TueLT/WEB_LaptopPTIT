@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Page</title>
+        <meta charset = "UTF-8">
+        <link href="css/admin_add_laptop.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/side-bar.css" rel="stylesheet">
+        <link rel="stylesheet" href="../font awersome/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <p>Admin Page</p>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="side-bar">
+                    <a href="../index.html"><p class="title">Laptop PTIT</p></a>
+                    <ul class="menu">
+                        <a href="admin_overall.html"><li class="option1"><i class="fa-solid fa-chart-simple"></i> <p>Tổng Quan</p></li></a>
+                        <div class="option2">
+                            <div class="option-title" id="option2">
+                                <i class="fa-solid fa-laptop"></i>
+                                <p>Quản lý Laptop</p>
+                                <div class="dau">
+                                </div>
+                            </div>
+                            <div class="sub-option">
+                                <a href="admin_add_laptop.html">
+                                    <li class="sub-option-title">Thêm Laptop</li>
+                                </a>
+                                <a href="admin_modify_laptop.html">
+                                    <li class="sub-option-title">Sửa, xóa Laptop</li>
+                                </a>
+                            </div>
+                        </div>
+                        <a  href="admin_account.html"><li class="option3"><i class="fa-solid fa-users"></i> <p>Quản lý tài khoản</p></li></a>
+                        <a href="admin_order.html"><li class="option4"><i class="fa-solid fa-receipt"></i> <p>Quản lý đơn hàng</p></li></a>
+                        <a href="admin_category.html"><li class="option5"><i class="fa-solid fa-layer-group"></i> <p>Quản lý danh mục</p></li></a>
+                        <a href="admin_comment.html"><li class="option7"><i class="fa-solid fa-comments"></i> <p>Quản lý comment</p></li></a>
+                        <a href="../index.html"><li class="logOut"><i class="fa-solid fa-right-from-bracket"></i> <p>Đăng xuất</p></li></a>
+                    </ul>
+                </div>
+                <div class="laptop-container">
+                    <div class="first-row">
+                        <div class="laptop-name">
+                            <p>Tên của laptop</p>
+                            <input class = "name" type="text" placeholder="Nhập tên">
+                        </div>
+                        <div class="laptop-price">
+                            <p>Trị giá</p>
+                            <input class = "price" type="text" placeholder="Nhập giá">
+                        </div>
+                        <div class="laptop-state">
+                            <p>Trạng thái</p>
+                            <input class = "state" type="text" placeholder="Nhập trạng thái">
+                        </div>
+                        <div class="laptop-sale">
+                            <p>Giảm giá</p>
+                            <input class = "sale" type="text" placeholder="Nhập % giảm giá">
+                        </div>
+                    </div>
+                    <div class="second-row">
+                        <div class="laptop-specification">
+                            <p>Thông số</p>
+                            <div class="specification-container">
+                                <div class="Cpu-container">
+                                    <p>Cpu</p>
+                                    <input class="cpu" type="text" placeholder="Nhập loại Cpu">
+                                </div>
+                                <div class="Ram-container">
+                                    <p>Ram</p>
+                                    <input class="ram" type="text" placeholder="Nhập loại Ram">
+                                </div>
+                                <div class="Rom-container">
+                                    <p>Bộ nhớ trong</p>
+                                    <input class="rom" type="text" placeholder="Nhập loại Rom">
+                                </div>
+                                <div class="Vga-container">
+                                    <p>Card đồ họa</p>
+                                    <input class="vga" type="text" placeholder="Nhập loại card đồ họa">
+                                </div>
+                                <div class="screen-container">
+                                    <p>Màn hình</p>
+                                    <input class="screen" type="text" placeholder="Nhập loại màn hình">
+                                </div>
+                                <div class="battery-container">
+                                    <p>Pin</p>
+                                    <input class="battery" type="text" placeholder="Nhập loại pin">
+                                </div>
+                                <div class="os-container">
+                                    <p>Hệ điều hành</p>
+                                    <input class="os" type="text" placeholder="Nhập hệ điều hành">
+                                </div>
+                                <div class="webcam-container">
+                                    <p>Webcam</p>
+                                    <input class="webcam" type="text" placeholder="Nhập loại webcam">
+                                </div>
+                                <div class="weight-container">
+                                    <p>Trọng lượng</p>
+                                    <input class="weight" type="type" placeholder="Nhập trọng lượng">
+                                </div>
+                                <div class="port-container">
+                                    <p>Cổng kết nối</p>
+                                    <textarea class="port" placeholder="Nhập các cổng kết nối"></textarea>
+                                </div>
+                                <div class="mux-container">
+                                    <p>Mux-switch</p>
+                                    <input type="radio" id="opt1" name="port" value="true">
+                                    <label for="opt1">Có</label>
+                                    <br>
+                                    <input type="radio" id="opt2" name="port" value="false">
+                                    <label for="opt2">Không</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-row">
+                        <div class="laptop-category">
+                            <p>Danh mục Laptop</p>
+                            <div class="dropdown">
+                                <button class="categoryButton">Danh sách danh mục</button>
+                                <div class="dropdown-list">
+                                    <p>Học tập văn phòng</p>
+                                    <p>Laptop Gaming</p>
+                                    <p>Đồ họa hiệu năng cao</p>
+                                    <p>Mỏng nhẹ cao cấp</p>
+                                    <p>Asus TUF</p>
+                                    <p>Asus Zenbook</p>
+                                    <p>Asus Vivobook</p>
+                                    <p>Asus ROG</p>
+                                    <p>Dell Alienware</p>
+                                    <p>Dell Precision</p>
+                                    <p>Dell XPS</p>
+                                    <p>Dell Vostro</p>
+                                    <p>Dell Inspiron</p>
+                                    <p>Acer Aspire</p>
+                                    <p>Acer Nitro</p>
+                                    <p>Acer Predator</p>
+                                    <p>Acer Swift</p>
+                                    <p>Lenovo Ideapad</p>
+                                    <p>Lenovo ThinkBook</p>
+                                    <p>Lenovo Legion</p>
+                                    <p>Lenovo Thinkpad</p>
+                                    <p>Lenovo LOQ</p>
+                                    <p>HP Pavilion</p>
+                                    <p>HP Omen</p>
+                                    <p>HP Envy</p>
+                                    <p>MSI Modern</p>
+                                    <p>MSI Bravo</p>
+                                    <p>MSI Sword</p>
+                                    <p>MSI Katana</p>
+                                </div>
+                            </div>
+                            <div class="selected-category"> 
+                                <!-- <div class="chosen">
+                                    <p>Lenovo Legion</p>
+                                    <i class="fa-solid fa-delete-left"></i>
+                                </div>
+                                <div class="chosen">
+                                    <p>Học tập văn phòng</p>
+                                    <i class="fa-solid fa-delete-left"></i>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="laptop-images">
+                            <p>Ảnh của laptop</p>
+                            <form>
+                                <div class="file-input-wrapper"> 
+                                    <button class="file-input-button">Chọn Tệp</button> 
+                                    <input type="file" class="file-input" name="file" accept="image/*" multiple> 
+                                </div>
+                            </form>
+                            <div class="imported-files">
+                                <!-- <p>Bienngu.png</p>
+                                <p>ctdl.png</p>
+                                <p>dsfdsf.png</p>
+                                <p>Bienngu.png</p>
+                                <p>Bienngu.png</p>
+                                <p>Bienngu.png</p> -->
+                            </div> 
+                        </div>
+                        <button class="confirm-button">Xác nhận</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+
+    <script type="module" src="js/laptop.js"></script>
+    <script type="module" src="js/accessToken.js"></script>
+    <script src="js/openOrHideen.js"></script>
+    <script src="js/logOut.js"></script>
+</html>

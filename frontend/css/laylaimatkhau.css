@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: auto;
+    background-color:whitesmoke;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: "SF Pro Display", sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+button{
+    cursor: pointer;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.content-container .title{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(43, 128, 255);
+    margin-bottom: 30px;
+}
+
+.password-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: white;
+    padding: 30px 50px 30px 50px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 27px;
+}
+
+.password-input1, .password-input2, .confirm-button{
+    font-size: 25px;
+}
+
+.password-input1, .password-input2{
+    outline: none;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: -1px;
+    border: solid, 1px, rgb(189, 189, 189);
+}
+
+.password-input1{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.password-input2{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.confirm-button{
+    margin-top: 20px;
+    background-color: rgb(65, 139, 250);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.15s;
+}
+
+.confirm-button:hover{
+    background-color: rgba(65, 139, 250, 0.9);
+}
+
+.content-container .war{
+    color: red;
+    margin-top: 10px;
+    display: none;
+}

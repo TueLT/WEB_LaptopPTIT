@@ -1,0 +1,88 @@
+.midder{
+    height: auto;
+    width: 100%;
+    min-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.midder__container{
+    height: auto;
+    width: 1200px;
+    display: flex;
+}
+
+.category{
+    height: 540px;
+    width: 280px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.category__new, .category__like_new, .category__hoctapvanphongcoban, .category__gaming, .category__dohoa, .category__mongnhe{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 500;
+    cursor: pointer;
+    justify-content: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.category__new{
+    border-radius: 10px 10px 0 0;
+}
+
+.category__mongnhe{
+    border-radius: 0 0 10px 10px;
+}
+
+.midder__center{
+    height: auto;
+    width: auto;
+    margin-left: 20px;
+}
+
+.midder__slide{
+    height: 390px;
+    width: 580px;
+    border-radius: 10px;
+}
+
+.midder__slide img{
+    height: 390px;
+    width: 580px;
+    border-radius: 10px;
+}
+
+.midder__center__bottom{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.midder__center__bottom img{
+    height: 190px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.midder__right{
+    height: auto;
+    width: 280px;
+    margin-left: 10px;
+}
+
+.midder__right img{
+    width: auto;
+    height: 190px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}

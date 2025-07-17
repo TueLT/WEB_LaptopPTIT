@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Giỏ hàng của bạn
+        </title>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/cart-detail.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/path.css">
+        <link rel="stylesheet" href="font awersome/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css">
+        <link href="font/sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF">
+    </head>
+    <body>
+        <header>
+            <div class="header__top">
+                <div class="header__top__container">
+                    <!--  -->
+                    <div class="hethongshowroom">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Hệ thống Showroom</p>
+                    </div>
+        
+                    <!--  -->
+                    <div class="register__login">
+                        <div class="register">
+                            <p>Đăng ký</p>
+                        </div>
+                        <h6>|</h6>
+                        <div class="login">
+                            <p>Đăng nhập</p>
+                        </div>
+                    </div>
+        
+                    <a href="account_detail.html" class="account"></a>
+                </div>
+            </div>
+            <!--header mid-->
+        
+            <div class="header__mid">
+                <div class="header__mid__container">
+        
+                    <!--logo-->
+                    <a class="logo" href="index.html">
+                        <div class="logo_img">
+                            P
+                        </div>
+                        <div class="text">
+                            <p>LAPTOP PTIT</p>
+                            <p>Vừa khít túi tiền</p>
+                        </div>
+                    </a>
+        
+                    <!--Chinh sach-->
+                    <a href="giauudainhat.html" class="giauudainhat">
+                        <i class="fa-solid fa-money-bill"></i>
+                        <p>Giá ưu đãi nhất</p>
+                    </a>
+                    <a href="baohanhtannha.html" class="baohanhtannha">
+                        <i class="fa-solid fa-shield"></i>
+                        <p>Bảo hành tận nhà</p>
+                    </a>
+                    <a href="mienphivanchuyen.html" class="mienphivanchuyen">
+                        <i class="fa-solid fa-truck"></i>
+                        <p>Miễn phí vận chuyển</p>
+                    </a>
+        
+                    <!--Cart-->
+                    <div class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        
+            <!--header bottom-->
+            <div class="header__bottom">
+                <div class="header__bottom__container">
+                    <div class="danhmucsanpham">
+                        <i class="fa-solid fa-list"></i>
+                        <p>Danh mục sản phầm</p>
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="Nhập sản phẩm bạn quan tâm">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--Cart-->
+        <main>
+            <div class="content-container">
+                <div class="navigate">
+                    <a class="home-link-1" href = "index.html">Trang chủ</a>
+                    <p class="path">&gt;</p>
+                    <p class="current-site">Thông tin giỏ hàng</p>
+                </div>
+                <div class="my-cart">
+                    <p class="main-text">Giỏ hàng của tôi</p>
+                    <p class="cart-counter"></p>
+                </div>
+                <div class="my-cart-underline"></div>
+                <div class="my-cart-detail">
+                    <div class="left-side">
+                        <table class="cart-table">  
+                             <!-- <tr class="table-row">
+                                <td>
+                                    <img src="image/laptop/AcerAspire5A515-58GM-53PZ_1.jpg" class = "laptop-img">
+                                    <p class = "laptop-name">Acer Aspire 5A515-58GM-53PZ &#40;Core i5-13420H, 8GB, 512GB, GTX 2050 4GB, 15.6&#34;&#41;</p> 
+                                </td>
+                                <td>
+                                    <div class="adjust-delete-button">
+                                        <div class="adjust">
+                                            <button class="left-button">-</button>
+                                            <div class="laptop-counter">1</div>
+                                            <button class="right-button">+</button>
+                                        </div>
+                                        <button class="trash-button">
+                                            <img src="image/cart/trash-icon.png" class="trash-image">
+                                        </button>
+                                    </div>
+                                    <p class="unit-price">31.450.000 VNĐ</p>
+                                    <p class="total-unit-price">31.450.000 VNĐ</p>
+                                </td>
+                            </tr> 
+                              <tr class="table-row">
+                                <td>
+                                    <img src="image/laptop/AcerAspire5A515-58GM-53PZ_1.jpg" class = "laptop-img">
+                                    <div class = "laptop-name">Acer Aspire 5A515-58GM-53PZ &#40;Core i5-13420H, 8GB, 512GB, GTX 2050 4GB, 15.6&#34;&#41;</div> 
+                                </td>
+                                <td>
+                                    <div class="adjust-delete-button">
+                                        <div class="adjust">
+                                            <button class="left-button">-</button>
+                                            <div class="laptop-counter">2</div>
+                                            <button class="right-button">+</button>
+                                        </div>
+                                        <button class="trash-button"><img src="image/cart/trash-icon.png" class="trash-image"></button>
+                                    </div>
+                                    <p class="unit-price">31.450.000 VNĐ</p>
+                                    <p class="total-unit-price"></p>
+                                </td>
+                            </tr> -->
+                            <!-- <tr>
+                                <td class="total-price-text">
+                                    Tổng giá trị đơn hàng
+                                </td>
+                                <td class="total-price">0</td>
+                            </tr> -->
+                        </table>
+                        <div class="make-empty">
+                            <button class="make-empty-button">Làm trống giỏ hàng</button>
+                        </div> 
+                    </div>
+                    <div class="right-side">
+                        <div class="make-order">
+                            <p class="make-order-title">Thông tin thanh toán</p>
+                            <div class="customer-etc">
+                                <input class="customer-name" type="text" placeholder="Họ tên người nhận">
+                                <input class="customer-contact" type="text" placeholder="Số điện thoại người nhận">
+                                <input class="customer-address" type="text" placeholder="Địa chỉ nhận hàng">
+                                <textarea class="customer-note" placeholder="Ghi chú"></textarea>
+                                <form class="all-option">      
+                                    <input type="radio" id="option1" name="payment" value="1" class="chose-method">
+                                    <label for="option1">Thanh toán tại cửa hàng</label><br>
+                                    <input type="radio" id="option2" name="payment" value="2" class="chose-method">
+                                    <label for="option2">Thanh toán khi nhận hàng &#40;COD&#41;</label><br>
+                                </form> 
+                            </div>
+
+                            <div class="war"> - Vui lòng điền đầy đủ thông tin và chọn phương thức thanh toán để thực hiện việc đặt hàng!</div>
+                            <div class="war2">- Số điện thoại không hợp lệ. Vui lòng kiểm tra lại!</div>
+                        </div>   
+                        <button class="make-order-button">Đặt hàng</button> 
+                    </div> 
+                </div>
+            </div>
+            <div class="empty-cart">
+                <p class="empty-notice">Không có sản phẩm nào trong giỏ hàng, vui lòng quay lại</p>
+                <a class="home-link-2" href="index.html">
+                    <span class="back-arrow">&larr;</span>
+                    Quay lại trang chủ
+                </a>
+            </div>
+        </main>
+
+        <!--footer-->
+        <footer>
+            <div class="footer-container">
+                <div class="web-name">
+                    <p>Laptop PTIT</p>
+                </div>
+                <div class="connect">
+                    <p class="connect-title">KẾT NỐI VỚI CHÚNG TÔI</p>
+                    <div class="plank"></div>
+                    <a class="to-social" href="https://www.facebook.com/@HocvienPTIT" target="_blank">
+                        <img class="connect-icon" src="image/footer/facebook-icon.png">
+                        <p>Facebook</p>
+                    </a>
+                    <a class="to-social" href="https://www.youtube.com/@PChannels" target="_blank">
+                        <img class="connect-icon" src="image/footer/youtube-icon.png">
+                        <p>Youtube</p>
+                    </a>
+                    <a class="to-social" href="https://www.tiktok.com/@langthangptit?is_from_webapp=1&sender_device=pc" target="_blank">
+                        <img class="connect-icon" src="image/footer/tiktok.png">
+                        <p>Tiktok</p>
+                    </a>
+                </div>
+                <div class="policy">
+                    <p class="policy-title">CHÍNH SÁCH</p>
+                    <div class="plank"></div>
+                    <a href="baohanhtannha.html">
+                        Chính sách bảo hành
+                    </a>
+                    <a href="hotrotragop.html">
+                        Chính sách trả góp
+                    </a>
+                    <a href="mienphivanchuyen.html">
+                        Chính sách giao hàng
+                    </a>
+                </div>
+                <div class="switchboard">
+                    <p class="switchboard-title">TỔNG ĐÀI HỖ TRỢ &#40;8:00 - 21:00&#41;</p>
+                    <div class="plank"></div>
+                    <div class="tel">
+                        <p>Mua hàng: <a href="tel:19001088">1900.1088</a></p>
+                        <p>Bảo hành: <a href="tel:19001860">1900.1860</a></p>
+                        <p>Khiếu nại: <a href="tel:19009090">1900.9090</a></p>
+                        <p>Email: <a href="mailto:huaduyanh090@gmail.com">cskh@laptopptit.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/register__login__or__account.js"></script>
+        <script type="module" src="js/cartDetail.js"></script>
+        <script src="js/clear__local__storage.js"></script>
+        <script type="module" src="js/accessToken.js"></script>
+        <script src="js/clickCart.js"></script>
+        <script src="js/adminOrUser.js"></script>
+    </body>
+</html>

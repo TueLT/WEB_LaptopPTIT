@@ -1,0 +1,169 @@
+.account-container{
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 248px;
+    padding-top: 80px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.account-table{
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    border-collapse: collapse;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.account-table td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 17px;
+}
+
+.table-first-row{
+    text-align: center;
+    max-height: 40px;
+}
+
+.table-other-row{
+    max-height: 78px;
+    transition: background-color 0.15s;
+}
+
+.table-other-row:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+.stt{
+    min-width: 20px;
+    text-align: center;
+}
+
+.id{
+    min-width: 10px;
+    text-align: center;
+}
+
+.name{
+    min-width: 150px;
+    text-align: center;
+}
+
+.registration-date{
+    min-width: 93px;
+}
+
+.email{
+    min-width: 260px;
+}
+
+.contact{
+    min-width: 106px;
+    text-align: center;
+}
+
+.role{
+    min-width: 70px;
+    text-align: center;
+}
+
+.change-role, .delete-account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    gap: 10px;
+}
+
+.change-role .title, .delete-account .title{
+    font-size: 22px;
+}
+
+.id-input{
+    padding: 10px 40px 10px 10px;
+    width: 280px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.address{
+    min-width: 150px;
+}
+
+.role-input{
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.change-role .to{
+    margin: auto;
+}
+
+.submit1, .submit2{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    padding: 12px;
+    width: 200px;
+    background-color: white;
+    border-radius: 6px;
+    color: rgb(0, 125, 234);
+    border: 2px, solid, rgb(0, 125, 234);
+    justify-content: center;
+    cursor: pointer;
+}
+
+.submit2{
+    margin-top: 0px;
+}
+
+.new-role{
+    display: block;
+    width: 100px !important;
+}
+
+.pages{
+    width: 1172px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.pageTransition{
+    display: flex;
+    margin: 10px 0 0 500px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.number{
+    display: flex;
+    gap: 3px;
+}
+

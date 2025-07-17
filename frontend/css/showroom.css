@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: auto;
+    background-color:whitesmoke;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: "SF Pro Display", sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(43, 128, 255);
+    margin-top: -10px;
+}
+
+.showroom-container{
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    margin: 0 auto;
+    gap: 15px;
+    margin-top: -40px;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    font-size: 18px;
+}
+
+.info-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(0, 94, 236);
+}
+
+.phone, .email, .time{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.phone p, .email p, .time p{
+    font-size: 18px;
+}
+
+.phone a, .email a, .time a{
+    color: rgb(63, 140, 255);
+}
+
+
+
+.showroom-info{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.showroom-container .plank{
+    margin-top: 55px;
+    margin-bottom: -50px;
+    background-color: rgb(43, 128, 255);
+}

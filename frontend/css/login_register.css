@@ -1,0 +1,437 @@
+/* register box */
+.register__box{
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;    
+    background-color: #726d6d22;
+    z-index: 999;
+} 
+
+.register__box__container{
+    width: 800px;
+    height: 485px;
+    display: flex;
+    margin: 200px;
+    position: fixed;
+    left: 150px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.register__box__img{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register__box__img h1{
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(0, 102, 193);
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.register__box__img p{
+    font-size: 15px;
+}
+
+.register__box__img img{
+    height: 280px;
+    width: 225px;
+}
+
+.register__box__content{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register__box__content h1{
+    margin-top: 75px;
+    margin-left: 45px; 
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.register__box__content p{
+    margin-left: 45px; 
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.register__box__content input{
+    margin-bottom: 30px;
+    margin-left: 45px; 
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #1d141477;
+    height: 25px;
+    width: 360px;
+}
+
+.register__box__password{
+    display: flex;
+    height: 25px;
+    width: 150px;
+    margin-bottom: 15px;
+}
+.register__war1, .register__war2, .register__war3, .register__war4, .register__war5, .register__war6, .register__war7{    
+    font-size: 15px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    color: red;
+    display: none;
+}
+
+.register__submit{
+    height: 40px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 102, 193);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.exitRegisterBox{
+    margin-left: 165px;
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Đăng ký thành công */
+
+.success__register{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 55%;
+    display: none;
+    z-index: 999;
+}
+
+.success__register__container{
+    height: 350px;
+    width: 500px;
+    margin: 200px auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.success__register__container i{
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    padding: 25px;
+    background-color: #17b021fc;
+    border-radius: 50%;
+}
+
+.success__register__container h1{
+    margin-top: 30px;
+}
+
+.success__register__container button{
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #17b021fc;
+    cursor: pointer;
+}
+
+/* login__box */
+.login__box{
+    display: none;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;    
+    background-color: #726d6d22;
+    z-index: 999;
+} 
+
+.login__box__container{
+    width: 800px;
+    height: 485px;
+    display: flex;
+    margin: 200px auto;
+    background-color: white;
+    border-radius: 15px;
+    margin: 200px;
+    position: fixed;
+    left: 150px;
+}
+    /* loginBox img */
+    .login__box__img{
+        height: 100%;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login__box__img h1{
+        font-size: 18px;
+        font-weight: 800;
+        color: rgb(0, 102, 193);
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .login__box__img p{
+        font-size: 15px;
+    }
+
+    .login__box__img img{
+        height: 280px;
+        width: 225px;
+    }
+
+    /* loginBox content*/
+    .login__box__content{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-left: 45px;
+    }
+
+    .login__box__content h1{
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 70px;
+    }
+
+    .login__box__content span{
+        display: flex;
+    }
+
+    .registerF, .login__box__content h2{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .registerF{
+        background-color: white;
+        border: none;
+        color: rgb(25, 136, 236);
+        cursor: pointer;
+        text-decoration: underline;
+        margin-right: 3px;
+        margin-bottom: 30px;
+    }
+
+    .login__box__content input{
+        height: 30px;
+        border: none;
+        outline: none;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #1d141477;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .login__box__content h3{
+        color: rgb(250, 82, 82);
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 5px;
+        display: none;
+    }
+
+    .losePassword{
+        font-size:14px;
+        font-weight: 600;   
+        height:auto;
+        width: 110px;
+        margin-top: 10px;
+        margin-left: 270px;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .login__button{
+        height: 40px;
+        width: 330px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color:  rgb(0, 102, 193);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .login__box__content p{
+        font-size: 16px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .exitLoginBox{
+        border: none;
+        background-color:white;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-bottom: 1000px;
+    }
+
+.quenMatKhau{
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;    
+    background-color: #726d6d22;
+    z-index: 999;
+} 
+
+.quenMatKhau .container{
+    width: 800px;
+    height: 485px;
+    display: flex;
+    margin: 200px;
+    position: fixed;
+    left: 150px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.quenMatKhau .container .img{
+    height: 100%;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quenMatKhau .container .img h1{
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(0, 102, 193);
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.quenMatKhau .container .img p{
+    font-size: 15px;
+}
+
+.quenMatKhau .container .img img{
+    width: 100%;
+    height: auto;
+}
+
+.quenMatKhau .container .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quenMatKhau .container .content .title{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.quenMatKhau .container .content .title h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(64, 77, 95);
+    margin-right: auto;
+}
+
+.quenMatKhau .container .content .title h2{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(64, 77, 95);
+    margin-right: auto;
+}
+
+.quenMatKhau .container .content .input{
+    margin: 50px auto;
+    height: auto;
+    width: 90%;
+}
+
+.quenMatKhau .container .content .input input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+.quenMatKhau .container .content .button{
+    height: 50px;
+    width: 80%;
+    background-color: rgb(0, 102, 193);
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.quenMatKhau .container .content .return{
+    margin: 20px 0 0 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.quenMatKhau .container .content .war{
+    color: red;
+    margin-top: -30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: none;
+}

@@ -1,0 +1,144 @@
+.order-container{
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 248px;
+    padding-top: 80px;
+    padding-left: 55px;
+    padding-right: 35px;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.order-table{
+    font-size: 15px;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.order-table td{
+    border: 1px solid rgb(166, 166, 166);
+    padding: 12px;
+}
+
+.table-other-row{
+    transition: background-color 0.2s;
+}
+
+.table-first-row{
+    text-align: center;
+}
+
+.table-other-row:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+.stt{
+    width: 25px;
+    text-align: center;
+}
+
+.id{
+    width: 10px;
+    text-align: center;
+}
+
+.name{
+    width: 150px;
+}
+
+.payment-method{
+    width: 90px;
+}
+
+.status{
+    width: 120px;
+    text-align: center;
+}
+
+.order-date{
+    width: 85px;
+    text-align: center;
+}
+
+.note{
+    width: 150px;
+}
+
+.address{
+    width: 150px;
+}
+
+.total-price{
+    width: 142px;
+    text-align: center;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.input{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.status-input{
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.to{
+    margin: auto;
+}
+
+.id-input{
+    margin: auto;
+    padding: 10px 40px 10px 10px;
+    width: 280px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.submit{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    padding: 12px;
+    width: 200px;
+    background-color: white;
+    border-radius: 6px;
+    color: rgb(0, 125, 234);
+    border: 2px, solid, rgb(0, 125, 234);
+    justify-content: center;
+    cursor: pointer;
+}
+
+.pageTransition{
+    display: flex;
+    margin: 10px 0 0 500px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.number{
+    display: flex;
+    gap: 3px;
+}

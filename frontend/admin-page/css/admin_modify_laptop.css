@@ -1,0 +1,170 @@
+.account-container{
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 248px;
+    padding-top: 80px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.laptop-table{
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    border-collapse: collapse;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.laptop-table td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 17px;
+}
+
+.table-first-row{
+    text-align: center;
+    max-height: 40px;
+}
+
+.table-other-row{
+    max-height: 78px;
+    transition: background-color 0.15s;
+}
+
+.table-other-row:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+.stt{
+    min-width: 20px;
+    text-align: center;
+}
+
+.id{
+    min-width: 30px;
+    text-align: center;
+}
+
+.name{
+    min-width: 475px;
+}
+
+.price{
+    min-width: 150px;
+    text-align: center;
+}
+
+.sale{
+    min-width: 73px;
+    text-align: center;
+}
+
+.state{
+    min-width: 90px;
+    text-align: center;
+}
+
+.available{
+    min-width: 79px;
+    text-align: center;
+}
+
+.change-available, .delete-laptop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    gap: 10px;
+}
+
+.change-available .title, .delete-laptop .title{
+    font-size: 22px;
+}
+
+.id-input{
+    padding: 10px 40px 10px 10px;
+    width: 280px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.address{
+    min-width: 150px;
+}
+
+.available-input{
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.change-available .to{
+    margin: auto;
+}
+
+.submit1, .submit2{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    padding: 12px;
+    width: 200px;
+    background-color: white;
+    border-radius: 6px;
+    color: rgb(0, 125, 234);
+    border: 2px, solid, rgb(0, 125, 234);
+    justify-content: center;
+    cursor: pointer;
+}
+
+.submit2{
+    margin-top: 0px;
+}
+
+.new-role{
+    display: block;
+    width: 100px !important;
+}
+
+.pages{
+    width: 1172px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.pageTransition{
+    display: flex;
+    margin: 10px 0 0 500px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.number{
+    display: flex;
+    gap: 3px;
+}
+

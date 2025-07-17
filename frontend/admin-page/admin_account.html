@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin Page</title>
+        <meta charset = "UTF-8">
+        <link href="css/admin_account.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/side-bar.css" rel="stylesheet">
+        <link rel="stylesheet" href="../font awersome/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <p>Admin Page</p>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="side-bar">
+                    <a href="../index.html"><p class="title">Laptop PTIT</p></a>
+                    <ul class="menu">
+                        <a href="admin_overall.html"><li class="option1"><i class="fa-solid fa-chart-simple"></i> <p>Tổng Quan</p></li></a>
+                        <div class="option2">
+                            <div class="option-title" id="option2">
+                                <i class="fa-solid fa-laptop"></i>
+                                <p>Quản lý Laptop</p>
+                                <div class="dau">
+                                    <i class="fa-solid fa-chevron-down" id="down-arrow"></i>
+                                </div>
+                            </div>
+                            <div class="sub-option">
+                                <a href="admin_add_laptop.html">
+                                    <li class="sub-option-title">Thêm Laptop</li>
+                                </a>
+                                <a href="admin_modify_laptop.html">
+                                    <li class="sub-option-title">Sửa, xóa Laptop</li>
+                                </a>
+                            </div>
+                        </div>
+                        <a  href="admin_account.html"><li class="option3"><i class="fa-solid fa-users"></i> <p>Quản lý tài khoản</p></li></a>
+                        <a href="admin_order.html"><li class="option4"><i class="fa-solid fa-receipt"></i> <p>Quản lý đơn hàng</p></li></a>
+                        <a href="admin_category.html"><li class="option5"><i class="fa-solid fa-layer-group"></i> <p>Quản lý danh mục</p></li></a>
+                        <a href="admin_comment.html"><li class="option7"><i class="fa-solid fa-comments"></i> <p>Quản lý comment</p></li></a>
+                        <a href="../index.html"><li class="logOut"><i class="fa-solid fa-right-from-bracket"></i> <p>Đăng xuất</p></li></a>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="first-row">
+                        <p class="title">Tài khoản</p>
+                        <div class="pages">
+                        </div>
+                        <div class="pageTransition">
+                            <div class="left">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+                            <div class="number">
+                                <div class="currentPage"></div>
+                                <div>/</div>
+                                <div class="numberPage"></div>
+                            </div>
+                            <div class="right">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-row">
+                        <div class="change-role">
+                            <p class="title">Thay đổi vai trò</p>
+                            <input class="id-input" type="text" placeholder="Nhập ID cách nhau bằng dấu ,">
+                            <p class="to">TO</p>
+                            <input class="role-input" type="text" placeholder="Nhập vai trò mới">
+                            <button class="submit1">Xác nhận</button>
+                            
+                        </div>
+                        <div class="delete-account">
+                            <p class="title">Xóa tài khoản</p>
+                            <input class="id-input" type="text" placeholder="Nhập ID cách nhau bằng dấu ,">
+                            <button class="submit2">Xác nhận</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script type="module" src="js/accessToken.js"></script>
+        <script type="module" src="js/account.js"></script> 
+        <script src="js/openOrHideen.js"></script>
+        <script src="js/logOut.js"></script>
+    </body>
+</html>

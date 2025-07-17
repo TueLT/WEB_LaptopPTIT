@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: auto;
+    background-color:whitesmoke;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: "SF Pro Display", sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    margin: 0 auto;
+    gap: 15px;
+    margin-top: -40px;
+    min-height: 550px;
+}
+
+.filter{
+    padding: 12px 20px 1px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
+.option{
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.option p{
+    font-size: 16px;
+    padding: 10px 7px 10px 7px;
+    border: 1px, rgb(119, 119, 119), solid;
+    border-radius: 5px;
+}
+
+.option:hover .choices{
+    padding: 15px 15px 15px 15px; 
+    height: auto;
+    opacity: 1;
+    gap: 10px;
+}
+
+.option:hover .choices a{
+    opacity: 1;
+}
+
+.option:hover a:hover{
+    opacity: 1;
+    color: rgb(25, 136, 236);
+}
+
+.choices{
+    top: 50px;
+    left: 0px;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    transition: height 0.2s ease, width 0.2s ease, opacity 0.2s ease;
+}
+
+.choices a{
+    color: black;
+    width: 150px;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.sort{
+    margin-left: 209.2px;
+}
+
+.sort select{
+    font-size: 16px;
+    padding: 7px 0px 7px 0px;
+    border-radius: 7px;
+    margin-bottom:8px;
+}
+
+.all-laptop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}

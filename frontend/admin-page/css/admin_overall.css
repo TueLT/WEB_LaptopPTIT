@@ -1,0 +1,50 @@
+.overall-container{
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 248px;
+    padding-top: 80px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.header{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.sales, .order, .account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.sales .title, .order .title, .account .title{
+    font-size: 20px;
+}
+
+.sales .content, .order .content, .account .content{
+    display: flex;
+    font-size: 24px;
+    gap: 20px;
+}
+
+.sales .content p, .order .content p, .account .content p{
+    color: rgb(0, 106, 255);
+}
+
+.sales .sub-content, .order .sub-content, .account .sub-content{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}

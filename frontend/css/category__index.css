@@ -1,0 +1,57 @@
+.category__detail{
+    height: 600px;
+    width: 910px;
+    display: none;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 180px;
+    right: 150px;
+}
+
+.category__detail__lap_top_moi, .category__detail__lap_top_like_new{
+    height: 600px;
+    width: 900px;
+    margin-left: 15px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    display: none;
+    z-index: 999;
+}  
+
+.category__detail__colum{
+    height: 100%;
+    width: auto;
+    margin-left: 50px;
+}
+
+.category__detail__branch__detail{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.category__detail__branch__name{
+    margin-top: 50px;
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(0, 102, 193);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.category__detail__branch .exception{
+    margin-top: 80px;
+}
+
+.category__detail__branch__detail{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.category__detail__branch__detail .id,.category__detail__branch__detail .state {
+    display: none;
+}

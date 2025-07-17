@@ -1,0 +1,16 @@
+.navigate{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: auto;
+}
+
+.home-link-1, .home-link-2{
+    color: rgb(36, 124, 255);
+    font-weight: 500;
+}
+
+.current-site, .path{
+    color: rgb(150, 150, 150);
+}

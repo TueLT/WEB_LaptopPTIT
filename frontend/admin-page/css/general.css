@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: auto;
+    background-color:whitesmoke;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+textarea{
+    resize: none;
+    outline: none;
+}
+
+input{
+    outline: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.main-container{
+    padding-bottom: 40px;
+    margin: 0 auto;
+    margin-left: -8px;
+    margin-right: -8px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.container{
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 248px;
+    padding-top: 80px;
+    padding-left: 55px;
+    padding-right: 55px;
+}

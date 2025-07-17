@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: auto;
+    background-color:whitesmoke;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: "SF Pro Display", sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+
+button{
+    cursor: pointer;
+}
+
+label{
+    color: rgb(120, 120, 120);
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    margin: 0 auto;
+    gap: 15px;
+    margin-top: -40px;
+}
+
+.my-cart{
+    display: flex;
+    align-items: end;
+    gap: 8px;
+}
+
+.main-text{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(43, 128, 255);
+}
+
+.cart-counter{
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+}
+
+.my-cart-underline{
+    margin-top: -8px;
+    height: 2.9px;
+    width: 250px;
+    background: linear-gradient(to right, rgb(151, 213, 255), rgb(0, 72, 255));
+}
+
+.back-arrow{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.empty-notice{
+    font-size: 19px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-left: 520px;
+    padding-bottom: 10px;
+}
+
+.home-link-2{
+    padding-left: 680px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.my-cart-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.laptop-img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border:solid, rgba(43, 128, 255), 2px;
+}
+
+.laptop-name{
+    margin-left: 7px;
+    width: 453.4px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.cart-table{
+    width: 750px;
+    border: 2px solid rgb(177, 177, 177);
+    border-radius: 10px;
+    border-collapse: collapse;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    background-color: white;
+}
+
+.cart-table td{
+    border-collapse: collapse;
+    border: 1px solid rgb(177, 177, 177);
+    padding: 17px;
+}
+
+.laptop-counter{
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+    border: 1px solid rgb(177, 177, 177);
+    background-color: rgb(227, 227, 227);
+    border-radius: 6px;
+}
+
+.unit-price{
+    margin-top: 8px;
+    margin-bottom: 6px;
+    font-size: 17px;
+}
+
+.total-unit-price{
+    font-size: 18px;
+    color: rgb(79, 149, 253);
+}

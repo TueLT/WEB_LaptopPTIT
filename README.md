@@ -1,4 +1,4 @@
-# OOP_MajorAssignment
+# WEB_LaptopPTIT
 Trang web bán laptop
 # Công nghệ sử dụng:
 - Ngôn ngữ: HTML/CSS, Javasript, Java
